@@ -1,0 +1,18 @@
+
+#### 3. **`package.json`** (to manage dependencies)
+```json
+{
+  "name": "deepfake-spotter",
+  "version": "1.0.0",
+  "description": "A tool for detecting deepfake content.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "tensorflow": "^3.0.0", // Example dependency for machine learning
+    "express": "^4.17.1" // Example dependency for server handling
+  },
+  "author": "John Monti",
+  "license": "MIT"
+}
